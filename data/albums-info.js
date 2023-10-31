@@ -1,0 +1,216 @@
+// id consist of the release month day and year (mmddyyyy) and the album initials
+export const albums = [
+  {
+    id: "03202011hob",
+    color: "000000",
+    release: "March 20, 2011",
+    name: "House of Balloons",
+    cover: "assets/album-covers/houseofballoons.jpeg",
+    tracklist: [
+      "high for this",
+      "what you need",
+      "house of balloons",
+      "the morning",
+      "wicked games",
+      "the party & the after party",
+      "coming down",
+      "loft music",
+      "the knowing",
+    ]
+  },
+
+  {
+    id: "08182011thur",
+    color: "151515",
+    release: "August 18, 2011",
+    name: "Thursday",
+    cover: "assets/album-covers/thursday.jpeg",
+    tracklist: [
+      "lonely star",
+      "life of the party",
+      "thursday",
+      "the zone",
+      "the birds, pt. 1",
+      "the birds, pt. 2",
+      "gone",
+      "rolling stone",
+      "heaven or las vegas",
+    ]
+  },
+
+  {
+    id: "12212011eos",
+    color: "0E0404",
+    release: "December 21, 2011",
+    name: "Echoes of Silence",
+    cover: "assets/album-covers/echoesofsilence.jpeg",
+    tracklist: [
+      "d.d.",
+      "montreal",
+      "outside",
+      "xo/the host",
+      "initiation",
+      "same old song",
+      "the fall",
+      "next",
+      "echoes of silence",
+    ]
+  },
+
+  {
+    id: "01012013kl",
+    color: "021D0D",
+    release: "January 1, 2013",
+    name: "Kiss Land",
+    cover: "assets/album-covers/kissland.jpeg",
+    tracklist: [
+      "Professional",
+      "The Town",
+      "Adaptation",
+      "love in the sky",
+      "belong to the world",
+      "live for",
+      "wanderlust",
+      "kiss land",
+      "pretty",
+      "tears in the rain",
+      "wanderlust (pharrell remix)",
+      "odd look",
+    ]
+  },
+
+
+  {
+    id: "08282015bbtm",
+    color: "171918",
+    release: "August 28, 2015",
+    name: "Beauty Behind The Madness",
+    cover: "assets/album-covers/beautybehindthemadness.jpeg",
+    tracklist: [
+      "real life",
+      "losers",
+      "tell your friends",
+      "often",
+      "the hills",
+      "acquainted",
+      "can't feel my face",
+      "shameless",
+      "earned it",
+      "in the night",
+      "as you are",
+      "dark times",
+      "prisoner",
+      "angel",
+    ]
+  },
+
+  {
+    id: "11252016sb",
+    color: "250108",
+    release: "November 25, 2016",
+    name: "Starboy",
+    cover: "assets/album-covers/starboy.jpeg",
+    tracklist: [
+      "starboy",
+      "party monster",
+      "false alarm",
+      "reminder",
+      "rockin'",
+      "secrets",
+      "true colors",
+      "stargirl interlude",
+      "sidewalks",
+      "six feet under",
+      "love to lay",
+      "a lonely night",
+      "attention",
+      "ordinary life",
+      "nothing without you",
+      "all i know",
+      "die for you",
+      "i feel it coming",
+    ]
+  },
+
+  {
+    id: "03302018mdm",
+    color: "1A130F",
+    release: "March 30, 2018",
+    name: "My Dear Melancholy,",
+    cover: "assets/album-covers/mydearmelancholy.jpeg",
+    tracklist: [
+      "call out my name",
+      "try me",
+      "wasted times",
+      "i was never there",
+      "hurt you",
+      "privilege",
+    ]
+  },
+
+  {
+    id: "03202020ah",
+    color: "161710",
+    release: "March 20, 2020",
+    name: "After Hours",
+    cover: "assets/album-covers/afterhours.jpeg",
+    tracklist: [
+      "alone again",
+      "too late",
+      "hardest to love",
+      "scared to live",
+      "snowchild",
+      "escape from la",
+      "heartless",
+      "faith",
+      "blinding lights",
+      "in your eyes",
+      "save your tears",
+      "repeat after me",
+      "after hours",
+      "until i bleed out",
+    ]
+  },
+
+  {
+    id: "01072022dfm",
+    color: "030A15",
+    release: "January 7, 2022",
+    name: "Dawn FM",
+    cover: "assets/album-covers/dawnfm.jpeg",
+    tracklist: [
+      "dawn fm",
+      "gasoline",
+      "how do i make you love me?",
+      "take my breath",
+      "sacrifice",
+      "a tale by quincy",
+      "out of time",
+      "here we go... again",
+      "best friends",
+      "is there someone else?",
+      "starry eyes",
+      "every angel is terrifying",
+      "don't break my heart",
+      "i heard you're married",
+      "less than zero",
+      "phantom regret by jim",
+    ]
+  },
+];
+
+export const achievements = [
+  "Biggest song of all-time",
+  "10 songs with over a BILLION streams",
+  "Super Bowl LV Halftime Show",
+  "World’s Most Popular Artist",
+  "Guinness World Record",
+  "100 Million Monthly Listeners",
+  "Eight No. 1 Singles",
+  "Most Streamed Song of All Time",
+  "Catalouge Lookin' Legendary",
+  "Toronto, Ontario",
+  "House of Balloons",
+  "Abel Tesfaye.",
+  "The Weeknd.",
+]
