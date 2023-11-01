@@ -151,7 +151,7 @@ body {
   margin: 20px 10px;
   transition: all 0.4s;
 }
-.album-cover:hover { transform: scale(1.02); cursor: pointer; }
+.album-cover:hover { transform: scale(1.02); cursor: default; }
 
 .track-list { list-style-type: none; text-align: center; }
 .track-list-number { font-size: 15px; letter-spacing: -1px; margin-right: 5px; opacity: 0.5;}
@@ -161,3 +161,5 @@ body {
 .thevisuals-logo:hover { transform: scale(1.1); cursor: pointer; }
 .thevisuals-logo-colors { font-weight: 100; }
 .thevisuals-logo-greyscale { font-weight: 600; } 
+
+.thevisuals-logo a { color: #FFF }

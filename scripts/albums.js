@@ -15,7 +15,7 @@ albums.forEach((album) => {
     <ul class="track-list"> ${tracks}</ul>
 
     <div class="thevisuals-logo">
-      <h1><span class="thevisuals-logo-colors">experience</span> <span class="thevisuals-logo-greyscale">The Visuals</span></h1>
+      <h1><a href="experiences/e${album.id}.html"><span class="thevisuals-logo-colors">experience</span> <span class="thevisuals-logo-greyscale">The Visuals</span></a></h1>
     </div>
   </div>
   `;
