@@ -1,43 +1,39 @@
-.filled-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;400;700&display=swap');
+
+/* intro */
+.hero-intro { background-color: #2b0202; }
+.intro-interactive-tab button { background-color: rgba(127, 6, 6, 0.3); }
+.intro-interactive-tab h4, .intro-interactive-tab button, .intro-interactive-tab button a {
+  font-family: 'Cormorant Garamond', serif;
+  color: rgba(233, 50, 50, 0.8);
 }
 
-.video-cell {
-  width: 100vw;
-  height: 70vh;
+/* video */
+.v-03202020ah-title { color: #d82929; font-family: 'Cormorant Garamond', serif }
+
+/* title header */
+.xp-03202020ah-header {
+  background-color: #2b0202; color: #d82929;
+  font-family: 'Cormorant Garamond', serif;
 }
 
-.video-cell video {
-  object-fit: cover;
-  overflow: hidden;
+/* cinematic experience */
+.cinematic-03202020ah-xp-text {
+  background-color: #ee9d52;
+  color: #2b0202;
+  padding: 2px 30px;
+  border-radius: 1rem;
+}
+/* live experience */
+.live-03202020ah-xp-live {
+  background-color: #d82929;
+  color: #2b0202;
+  padding: 2px 30px;
+  border-radius: 1rem;
 }
 
-.overlaping-cell {
-  position: relative;
-  text-align: center;
-  width: 100vw;
-  height: 100vh;
+/* the ending */
+.theending {
+  font-family: 'Cormorant Garamond', serif;
+  color: rgba(233, 50, 50, 0.8);
 }
-
-.overlaping-cell-text {
-  position: absolute;
-  left: 0; right: 0;
-  bottom: 30px;
-  letter-spacing: -2px;
-}
-
-.cell1-info h5 { font-weight: 200; font-size: 20px; }
-.cell1-info h3 { font-weight: 900; font-size: 30px; }
-
-.cell2 {
-  width: 100vw;
-  height: auto;
-}
-
-.large-text-container { text-align: center; font-size: 10vw; }
-.large-text-container h1 { font-weight: 900; letter-spacing: -10px; }
-
-.cell7 h1 { color: #610909; }
-.cell11 h1 { color: #810516; font-family: serif; font-weight: 100;}

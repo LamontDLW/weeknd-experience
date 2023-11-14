@@ -4,7 +4,7 @@ let albumCards = '';
 albums.forEach((album) => {
 
   let tracks = '';
-  let trackList = album.tracklist
+  let trackList = album.tracklist;
   trackList.forEach((n, i) => { tracks += `<li><span class="track-list-number">track ${i+1}</span>${n}</li>` });
 
   albumCards += `
