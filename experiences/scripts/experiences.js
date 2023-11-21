@@ -1,7 +1,10 @@
 import { xshelldata } from "../data/xshell.js";
 
 let xshellFill = '';
-xshelldata.forEach((xp) => {
+let result = [];
+for (let item of xshelldata) { if (item.id === localStorage.getItem("eraID")) { result.push(item); }}
+
+result.forEach((xp) => {
 
   let mv = '';
   xp.cell3.forEach((element) => {
@@ -37,9 +40,9 @@ xshelldata.forEach((xp) => {
       <div class="header-video"><video autoplay muted loop> <source src="assets/e-${xp.id}/videos/${xp.id}-header-video.mp4" type="video/mp4" /></video></div>
         <div class="intro-interactive-tab">
           <img class="album-cover" src="assets/e-${xp.id}/${xp.id}-cover.jpeg" />
-          <h4>explore this era:</h4>
-          <button><a href="#cell1">the journey to the albums release</a></button>
-          <button><a href="#cell3">cinematic video experience</a></button>
+          <h1 class="e-${xp.id}-hero-header-name">${xp.xpName}</h1>
+          <button><a href="#cell1">the rollout journey</a></button>
+          <button><a href="#cell3">experience the videos</a></button>
           <button><a href="#cell4">the LIVE experience</a></button>
         </div>
     </div>
@@ -77,4 +80,3 @@ xshelldata.forEach((xp) => {
   `
 });
 document.querySelector('.xpadddata').innerHTML = xshellFill;
-console.log(xshelldata.length)

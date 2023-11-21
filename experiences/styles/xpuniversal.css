@@ -19,6 +19,7 @@ body { overflow-x: hidden; }
 
 .album-cover {
   width: 250px; height: 250px;
+  border-radius: 1.2rem;
 }
 
 .intro-interactive-tab { 
@@ -28,26 +29,21 @@ body { overflow-x: hidden; }
   justify-content: center; align-items: center;
 }
 
-.intro-interactive-tab h4 {
-  font-size: 30px; font-weight: 100;
-  letter-spacing: -2px;
-}
-
 .intro-interactive-tab button {
   background-color: rgba(244, 244, 244, 0.1);
   color: #FFF;
-  letter-spacing: -1.7px;
+  letter-spacing: -1.5px;
 
-  font-size: 30px; font-weight: 900;
+  font-size: 20px; font-weight: 900;
 
   border: none; border-radius: 2rem;
-  width: 40vw;
+  width: 30vw;
   margin: 15px 0; padding: 8px 12px;
   cursor: pointer;
-  transition: scale 0.15s;
+  transition: border 0.15s, scale 0.15s;
 }
 
-.intro-interactive-tab button:hover { scale: 1.02; }
+.intro-interactive-tab button:hover { scale: 1.02; border: 1px solid; }
 
 /* filled images */
 .filled-image {
