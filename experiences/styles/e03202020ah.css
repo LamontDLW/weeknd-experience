@@ -1,39 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;400;700&display=swap');
 
 /* intro */
-.hero-intro { background-color: #2b0202; }
-.intro-interactive-tab button { background-color: rgba(127, 6, 6, 0);  border: 1px solid rgb(233, 50, 50);}
-.intro-interactive-tab h4, .intro-interactive-tab button, .intro-interactive-tab button a {
+.hero-intro { background-color: #0A0F1D }
+.header-xp-name { 
+  font-family: 'Cormorant Garamond', serif; color: #883232; 
+  text-transform: uppercase; font-weight: 100; letter-spacing: -17px;
+}
+.hero-intro-xpnav li {
+  background-color: #88333248; color: #883232;
   font-family: 'Cormorant Garamond', serif;
-  color: rgb(233, 50, 50);
 }
 
-.e-03202020ah-hero-header-name {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 40px; margin-top: -10px; letter-spacing: -5px;
-  text-transform: uppercase; font-weight: 100;
-  color: rgba(233, 50, 50, 0.8);
-}
+/* journey */
+.journey-xp { background-color: #190D0D; }
+.journey-xp h1 { color: #883232; font-family: 'Cormorant Garamond', serif; }
+.timeline h6 { background-color: #190D0D; color: #883232; }
+.timeline h3 { font-family: 'The Dawn Main', serif; font-weight: 100; }
+.v-line-timeline { background-color: #883232; }
 
 .cell1-info h3 { font-family: 'Cormorant Garamond', serif; }
 
 /* video */
-.video-row { background-color: #2b0202; }
-.video-cell { border-color: #d829293a; }
+.video-row { background-color: #190D0D; }
 .v-03202020ah-title { background-color: #d82929; color: #2b0202; font-family: 'Cormorant Garamond', serif }
 
 /* title header */
 .xp-03202020ah-header {
-  background-color: #2b0202; color: #d82929;
+  background-color: #190D0D; color: #d82929;
   font-family: 'Cormorant Garamond', serif;
 }
 
 /* cinematic experience */
 .cinematic-03202020ah-xp-text {
   background-color: #ee9d52;
-  color: #2b0202;
+  color: #190D0D;
   padding: 2px 30px;
-  border-radius: 1rem;
+  border-radius: 3rem;
 }
 /* live experience */
 .live-03202020ah-xp-live {
@@ -45,12 +47,14 @@
 
 /* rapid facts */
 .rapidfacts {
+  background-color: #190D0D;
   font-family: 'Cormorant Garamond';
   color: rgba(233, 50, 50, 0.8);
 }
 
 /* the ending */
 .theending {
+  background-color: #190D0D;
   font-family: 'Cormorant Garamond', serif;
   color: rgba(233, 50, 50, 0.8);
 }

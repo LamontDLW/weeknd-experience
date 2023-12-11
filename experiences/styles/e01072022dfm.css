@@ -9,29 +9,30 @@
 }
 
 /* intro */
-.hero-intro { background-color: #00051c; }
-.intro-interactive-tab button { background-color: rgba(127, 6, 6, 0);  border: 1px solid rgb(222, 235, 255);}
-.intro-interactive-tab button, .intro-interactive-tab button a {
+.hero-intro { background-color: #0A0F1D }
+.header-xp-name { font-family: 'The Dawn Secondary', serif; color: #325588; }
+.hero-intro-xpnav li {
+  background-color: #32548848; color: #325588;
   font-family: 'The Dawn Secondary', serif;
-  color: rgb(222, 235, 255);
 }
-.e-01072022dfm-hero-header-name {
-  font-family: 'The Dawn Main', serif;
-  font-size: 40px; margin-top: -10px;
-  color: rgb(222, 235, 255);
-}
+
+/* journey */
+.journey-xp { background-color: #0A0F1D; }
+.journey-xp h1 { color: #325588; font-family: 'The Dawn Secondary', serif; }
+.timeline h6 { background-color: #0A0F1D; color: #325588; font-family: 'The Dawn Main', serif; }
+.timeline h3 { font-family: 'The Dawn Main', serif; }
+.v-line-timeline { background-color: #102E5E; }
 
 .cell1-info h3 { font-family: 'The Dawn Main', serif; }
 .cell3 { background-color: #020a2b; }
 
 /* video */
-.video-row { background-color: #020a2b; }
-.video-cell { border-color: #2963d828; }
+.video-row { background-color: #0A0F1D; }
 .v-01072022dfm-title { background-color: #2963d8; color: #020a2b; font-family: 'The Dawn Main', serif }
 
 /* title header */
 .xp-01072022dfm-header {
-  background-color: #020a2b; color: #2949d8;
+  background-color: #0A0F1D; color: #2949d8;
   font-family: 'The Dawn Secondary', serif;
   text-transform: lowercase;
 }
@@ -42,12 +43,12 @@
   font-family: 'The Dawn Main', serif;;
   color: #020a2b; font-size: 90px;
   padding: 2px 30px;
-  border-radius: 1rem;
+  border-radius: 5rem;
 }
 /* live experience */
 .live-01072022dfm-xp-live {
   background-color: #2949d8;
-  font-family: 'The Dawn Main', serif;;
+  font-family: 'The Dawn Main', serif;
   color: #020a2b; font-size: 90px;
   text-transform: uppercase;
   padding: 2px 30px;
@@ -56,12 +57,14 @@
 
 /* rapid facts */
 .rapidfacts {
+  background-color: #0A0F1D;
   font-family: 'The Dawn Main';
   color: rgba(50, 132, 233, 0.8);
 }
 
 /* the ending */
 .theending {
+  background-color: #0A0F1D;
   font-family: 'The Dawn Secondary', serif;
   color: rgba(50, 132, 233, 0.8);
 }

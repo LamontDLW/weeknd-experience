@@ -4,42 +4,47 @@
 }
 
 /* intro */
-.hero-intro { background-color: #00051c; }
-.intro-interactive-tab button { background-color: rgba(127, 6, 6, 0);  border: 1px solid rgb(219, 118, 55);}
-.intro-interactive-tab button, .intro-interactive-tab button a {
-  font-family: "MDM"; font-size: 15px;
-  color: rgb(219, 118, 55);
+.hero-intro { background-color: #19130D }
+.header-xp-name { font-family: 'MDM', serif; font-size: 50px; color: #A14720; margin-bottom: 20px;}
+.hero-intro-xpnav li {
+  background-color: #71371048; color: #A14720;
+  font-family: 'MDM', serif; font-size: 20px;
 }
-.e-03302018mdm-hero-header-name {
-  font-family: "MDM";
-  font-size: 25px; margin-top: -10px;
-  color: rgb(219, 118, 55);
-}
+
+/* journey */
+.journey-xp { background-color: #130C07; }
+.journey-xp h1 { color: #A14720; font-family: 'MDM', serif; font-size: 30px;}
+.timeline h6 { background-color: #130C07; color: #A14720; }
+.timeline h3 { font-family: 'The Dawn Main', serif; }
+.v-line-timeline { background-color: #A14720; }
+
+
 .cell1-info h3 { font-family: 'MDM'; }
 
 /* title header */
 .xp-03302018mdm-header {
-  background-color: rgb(43, 17, 2); color: #d86929;
+  background-color: #130C07; color: #d86929;
   font-family: 'MDM'; font-size: 40px;
   text-transform: lowercase;
 }
 
 /* video */
-.v-03302018mdm-title { color: #d86929; font-family: 'MDM'; font-size: 19px;}
+.video-row { background-color: #130C07; }
+.v-03302018mdm-title { background-color: #130C07; color: #d86929; font-family: 'MDM'; font-size: 19px;}
 
 /* cinematic experience */
 .cinematic-03302018mdm-xp-text {
   background-color: #d86929;
   font-family: 'MDM';
-  color: rgb(43, 17, 2); font-size: 50px;
+  color: #19130D; font-size: 50px;
   padding: 2px 10px;
-  border-radius: 1rem;
+  border-radius: 3rem;
 }
 /* live experience */
 .live-03302018mdm-xp-live {
   background-color: #d86929;
   font-family: 'MDM';
-  color: rgb(43, 17, 2); font-size: 70px;
+  color: #19130D; font-size: 70px;
   text-transform: uppercase;
   padding: 2px 30px;
   border-radius: 1rem;
@@ -47,12 +52,14 @@
 
 /* rapid facts */
 .rapidfacts {
+  background-color: #130C07;
   font-family: 'MDM'; font-size: 70px;
   color: #d86929;
 }
 
 /* the ending */
 .theending {
+  background-color: #130C07;
   font-family: 'MDM';
   color: #d86929; font-size: 15px;
 }

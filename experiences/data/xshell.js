@@ -4,10 +4,24 @@ export const xshelldata = [
       id: "01072022dfm",
       xpName: "dawn FM",
       cell1: {
-        image: "cell1-img1",
-        caption: {
-          date: "abel via his iheart music awards acceptance speech - 5/27/21",
-          text: `"the after hours are done and the dawn is coming"`
+        timeline: {
+          timeline1: {
+            image: "cell1-img1",
+            date: "MAY 2021",
+            caption: `"the dawn is coming"`
+          },
+
+          timeline2: {
+            image: "cell1-img2",
+            date: "AUG 2021",
+            caption: `Take My Breath | Released`
+          },
+
+          timeline3: {
+            image: "cell1-img3",
+            date: "JAN 2022",
+            caption: `Album surprised released`
+          },
         }
       },
   
@@ -53,7 +67,7 @@ export const xshelldata = [
         runtime: "16 songs, 52 minutes",
       },
   
-      ending: `on Feb 25, 2023. LIVE at SOFI on HBO was the last piece of dawn FM.`
+      ending: `on Feb 25, 2023 with LIVE AT SOFI`
   
       },
 
@@ -62,10 +76,24 @@ export const xshelldata = [
     id: "03202020ah",
     xpName: "After Hours",
     cell1: {
-      image: "cell1-img1",
-      caption: {
-        date: "theweeknd via IG - 11/26/19",
-        text: `"tonight we start a new brain melting psychotic chapter! lets go!"`
+      timeline: {
+        timeline1: {
+          image: "cell1-img1",
+          date: "11/26/2019",
+          caption: `"BRAIN MELTING PSYCHOTIC CHAPTER!"`
+        },
+
+        timeline2: {
+          image: "cell1-img2",
+          date: "11/27/2019",
+          caption: `Heartless`
+        },
+
+        timeline3: {
+          image: "cell1-img3",
+          date: "11/29/2019",
+          caption: `Blinding Lights`
+        },
       }
     },
 
@@ -124,13 +152,26 @@ export const xshelldata = [
     id: "03302018mdm",
     xpName: "My Dear Melancholy,",
     cell1: {
-      image: "cell1-img1",
-      caption: {
-        date: "theweeknd via IG - 3/29/2018",
-        text: `"tonight"`
+      timeline: {
+        timeline1: {
+          image: "cell1-img1",
+          date: "MAR 2018",
+          caption: `EP surprised announced`
+        },
+
+        timeline2: {
+          image: "cell1-img2",
+          date: "MAR 2018",
+          caption: `"MDM," EP Dropped`
+        },
+
+        timeline3: {
+          image: "cell1-img3",
+          date: "APR 2018",
+          caption: `Call Out My Name | Single`
+        },
       }
     },
-
     cell2: [
       "cell2-img1",
       "cell2-img2",
@@ -171,10 +212,24 @@ export const xshelldata = [
     id: "11252016sb",
     xpName: "Starboy",
     cell1: {
-      image: "cell1-img1",
-      caption: {
-        date: "theweeknd via IG - 3/12/2016",
-        text: `the Weeknd hinted at the next "chapter" of his music`
+      timeline: {
+        timeline1: {
+          image: "cell1-img1",
+          date: "MAY 2021",
+          caption: `"the dawn is coming"`
+        },
+
+        timeline2: {
+          image: "cell1-img2",
+          date: "AUG 2021",
+          caption: `Take My Breath | Released`
+        },
+
+        timeline3: {
+          image: "cell1-img3",
+          date: "JAN 2022",
+          caption: `Album surprised released`
+        },
       }
     },
 
