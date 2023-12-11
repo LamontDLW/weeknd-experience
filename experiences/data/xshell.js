@@ -215,20 +215,20 @@ export const xshelldata = [
       timeline: {
         timeline1: {
           image: "cell1-img1",
-          date: "MAY 2021",
-          caption: `"the dawn is coming"`
+          date: "MAR 2016",
+          caption: `Abel hinted at the next "chapter"`
         },
 
         timeline2: {
           image: "cell1-img2",
-          date: "AUG 2021",
-          caption: `Take My Breath | Released`
+          date: "SEP 2016",
+          caption: `"The vibe on Starboy comes from that hip-hop culture of braggadocio from Wu-Tang and 50 Cent, the kind of music I listened to as a kid."`
         },
 
         timeline3: {
           image: "cell1-img3",
-          date: "JAN 2022",
-          caption: `Album surprised released`
+          date: "SEP 2016",
+          caption: `Album release date & name announced`
         },
       }
     },
@@ -245,8 +245,13 @@ export const xshelldata = [
     ],
 
     cell3: [
-      {name: "Call Out My Name", src: "calloutmyname.mp4", thumb: "13"},
-      {name: "Try Me", src: "tryme.mp4", thumb: "5"},
+      {name: "Starboy", src: "sbmv-1.mp4", thumb: "13"},
+      {name: "Party Monster", src: "sbmv-2.mp4", thumb: "5"},
+      {name: "False Alarm", src: "sbmv-3.mp4", thumb: "5"},
+      {name: "Reminder", src: "sbmv-4.mp4", thumb: "5"},
+      {name: "Secrets", src: "sbmv-2.mp4", thumb: "5"},
+      {name: "Die For You", src: "sbmv-2.mp4", thumb: "5"},
+      {name: "I Feel It Coming", src: "sbmv-2.mp4", thumb: "5"},
     ],
 
     cell4: [
@@ -259,8 +264,8 @@ export const xshelldata = [
     ],
 
     facts: {
-      release: "2018",
-      streams: "3.5 BILLION STREAMS",
+      release: "2016",
+      streams: "12 BILLION STREAMS",
       runtime: "6 songs, 22 minutes",
     },
 

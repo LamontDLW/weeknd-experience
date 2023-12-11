@@ -4,16 +4,63 @@
 }
 
 /* intro */
-.hero-intro { background-color: #00051c; }
-.intro-interactive-tab button { background-color: rgba(127, 6, 6, 0);  border: 1px solid rgba(219, 55, 77, 0.7);}
-.intro-interactive-tab button, .intro-interactive-tab button a {
-  font-family: "Starboy"; font-size: 20px;
-  color: rgba(219, 55, 77, 0.7); letter-spacing: -1px;
+.hero-intro { background-color: #1d0105 }
+.header-xp-name { font-family: 'Starboy', serif; color: #ebbb2f; text-transform: uppercase; letter-spacing: -5px; }
+.hero-intro-xpnav li {
+  background-color: #88323c48; color: #bb2445e1;
+  font-family: 'Starboy', serif; font-size: 22px;
+  letter-spacing: -1px;
 }
-.e-11252016sb-hero-header-name {
-  font-family: "Starboy"; letter-spacing: -1px;
-  font-size: 40px; margin-top: -10px;
-  color: rgb(219, 183, 55);
-  text-transform: uppercase;
-}
+
+/* journey */
+.journey-xp { background-color: #1d0105; }
+.journey-xp h1 { color: #bb2445e1; font-family: 'Starboy', serif; font-size: 35px; letter-spacing: -1px; }
+.timeline h6 { background-color: #1d0105; color: #bb2445e1; }
+.timeline h3 { font-family: 'Starboy', serif; letter-spacing: -0.5px;}
+.v-line-timeline { background-color: #5e1025; }
+
 .cell1-info h3 { font-family: 'Starboy'; letter-spacing: -1px; }
+.cell3 { background-color: #1d0105; }
+
+/* video */
+.video-row { background-color: #1d0105; }
+.v-11252016sb-title { background-color: #1d0105; color: #bb2445e1; font-family: 'Starboy'; letter-spacing: -1px; }
+
+/* title header */
+.xp-11252016sb-header {
+  background-color: #1d0105; color: #bb2445e1;
+  font-family: 'Starboy', serif; font-size: 45px;
+  text-transform: lowercase; letter-spacing: -2px; 
+}
+
+/* cinematic experience */
+.cinematic-11252016sb-xp-text {
+  background-color: #bb2445e1;
+  font-family: 'Starboy', serif;;
+  color: #1d0105; font-size: 90px;
+  padding: 10px 30px; font-size: 50px;
+  border-radius: 5rem;
+}
+/* live experience */
+.live-11252016sb-xp-live {
+  background-color: #bb2445e1;
+  font-family: 'Starboy', serif;
+  color: #1d0105; font-size: 90px;
+  text-transform: uppercase;
+  padding: 12px 30px; font-size: 50px;
+  border-radius: 1rem;
+}
+
+/* rapid facts */
+.rapidfacts {
+  background-color: #1d0105;
+  font-family: 'Starboy';
+  color: #bb2445e1;
+}
+
+/* the ending */
+.theending {
+  background-color: #1d0105;
+  font-family: 'Starboy'; text-transform: uppercase;
+  color: #bb2445e1; letter-spacing: -1px;
+}
