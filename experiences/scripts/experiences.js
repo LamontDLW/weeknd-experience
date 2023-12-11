@@ -11,7 +11,7 @@ result.forEach((xp) => {
     mv += `
     <div class="video-cell">
       <h1 class="v-${xp.id}-title v-inline-title">${element.name}</h1>
-      <video width="100%" height="100%" preload="metadata" controls muted>
+      <video width="100%" height="100%" preload="metadata"  controls muted>
         <source src="assets/e-${xp.id}/videos/${element.src}#t=${element.thumb}" type=video/mp4>
       </video>
     </div>
@@ -24,8 +24,8 @@ result.forEach((xp) => {
     lp += `
     <div class="video-cell">
       <h1 class="v-${xp.id}-title v-inline-title">${element.name}</h1>
-      <video width="100%" height="100%" controls muted>
-        <source src="assets/e-${xp.id}/videos/${element.src}" type=video/mp4>
+      <video width="100%" height="100%"  controls muted>
+        <source src="assets/e-${xp.id}/videos/${element.src}#t=${element.thumb}" type=video/mp4>
       </video>
     </div>
     `
@@ -64,12 +64,18 @@ result.forEach((xp) => {
 
       <div class="cell3" id="cell3">
       <h1 class="xp-${xp.id}-header xp-title-header">The <span class="cinematic-${xp.id}-xp-text">Cinematic Video</span> experience</h1>
-      ${mv}
+      <div class="video-row">${mv}</div>
       </div>
 
       <div class="cell4" id="cell4">
       <h1 class="xp-${xp.id}-header xp-title-header">The <span class="live-${xp.id}-xp-live">LIVE</span> experience</h1>
-      ${lp}
+      <div class="video-row">${lp}</div>
+      </div>
+
+      <div class="rapidfacts">
+      <p>${xp.facts.release}</p>
+      <p>${xp.facts.streams}</p>
+      <p>${xp.facts.runtime}</p>
       </div>
 
       <div class="theending">

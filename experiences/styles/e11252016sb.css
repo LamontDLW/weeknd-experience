@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Starboy";
+  src: url('../assets/e-11252016sb/fonts/Frisans\ Std\ Black.otf');
+}
+
+/* intro */
+.hero-intro { background-color: #00051c; }
+.intro-interactive-tab button { background-color: rgba(127, 6, 6, 0);  border: 1px solid rgba(219, 55, 77, 0.7);}
+.intro-interactive-tab button, .intro-interactive-tab button a {
+  font-family: "Starboy"; font-size: 20px;
+  color: rgba(219, 55, 77, 0.7); letter-spacing: -1px;
+}
+.e-11252016sb-hero-header-name {
+  font-family: "Starboy"; letter-spacing: -1px;
+  font-size: 40px; margin-top: -10px;
+  color: rgb(219, 183, 55);
+  text-transform: uppercase;
+}
+.cell1-info h3 { font-family: 'Starboy'; letter-spacing: -1px; }

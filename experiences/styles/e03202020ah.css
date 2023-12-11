@@ -2,14 +2,25 @@
 
 /* intro */
 .hero-intro { background-color: #2b0202; }
-.intro-interactive-tab button { background-color: rgba(127, 6, 6, 0.3); }
+.intro-interactive-tab button { background-color: rgba(127, 6, 6, 0);  border: 1px solid rgb(233, 50, 50);}
 .intro-interactive-tab h4, .intro-interactive-tab button, .intro-interactive-tab button a {
   font-family: 'Cormorant Garamond', serif;
+  color: rgb(233, 50, 50);
+}
+
+.e-03202020ah-hero-header-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 40px; margin-top: -10px; letter-spacing: -5px;
+  text-transform: uppercase; font-weight: 100;
   color: rgba(233, 50, 50, 0.8);
 }
 
+.cell1-info h3 { font-family: 'Cormorant Garamond', serif; }
+
 /* video */
-.v-03202020ah-title { color: #d82929; font-family: 'Cormorant Garamond', serif }
+.video-row { background-color: #2b0202; }
+.video-cell { border-color: #d829293a; }
+.v-03202020ah-title { background-color: #d82929; color: #2b0202; font-family: 'Cormorant Garamond', serif }
 
 /* title header */
 .xp-03202020ah-header {
@@ -30,6 +41,12 @@
   color: #2b0202;
   padding: 2px 30px;
   border-radius: 1rem;
+}
+
+/* rapid facts */
+.rapidfacts {
+  font-family: 'Cormorant Garamond';
+  color: rgba(233, 50, 50, 0.8);
 }
 
 /* the ending */

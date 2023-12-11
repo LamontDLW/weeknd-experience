@@ -8,43 +8,56 @@
   src: url('../assets/e-01072022dfm/fonts/cutin.otf');
 }
 
-
 /* intro */
 .hero-intro { background-color: #00051c; }
-.intro-interactive-tab button { background-color: rgba(6, 26, 127, 0.3); }
+.intro-interactive-tab button { background-color: rgba(127, 6, 6, 0);  border: 1px solid rgb(222, 235, 255);}
 .intro-interactive-tab button, .intro-interactive-tab button a {
   font-family: 'The Dawn Secondary', serif;
-  color: rgba(50, 90, 233, 0.8);
+  color: rgb(222, 235, 255);
 }
 .e-01072022dfm-hero-header-name {
   font-family: 'The Dawn Main', serif;
   font-size: 40px; margin-top: -10px;
-  color: rgba(0, 60, 179, 0.538);
-
+  color: rgb(222, 235, 255);
 }
 
+.cell1-info h3 { font-family: 'The Dawn Main', serif; }
+.cell3 { background-color: #020a2b; }
+
 /* video */
-.v-01072022dfm-title { color: #2963d8; font-family: 'The Dawn Main', serif }
+.video-row { background-color: #020a2b; }
+.video-cell { border-color: #2963d828; }
+.v-01072022dfm-title { background-color: #2963d8; color: #020a2b; font-family: 'The Dawn Main', serif }
 
 /* title header */
 .xp-01072022dfm-header {
-  background-color: #2b0202; color: #d82929;
+  background-color: #020a2b; color: #2949d8;
   font-family: 'The Dawn Secondary', serif;
+  text-transform: lowercase;
 }
 
 /* cinematic experience */
 .cinematic-01072022dfm-xp-text {
-  background-color: #ee9d52;
-  color: #2b0202;
+  background-color: #2949d8;
+  font-family: 'The Dawn Main', serif;;
+  color: #020a2b; font-size: 90px;
   padding: 2px 30px;
   border-radius: 1rem;
 }
 /* live experience */
 .live-01072022dfm-xp-live {
-  background-color: #d82929;
-  color: #2b0202;
+  background-color: #2949d8;
+  font-family: 'The Dawn Main', serif;;
+  color: #020a2b; font-size: 90px;
+  text-transform: uppercase;
   padding: 2px 30px;
   border-radius: 1rem;
+}
+
+/* rapid facts */
+.rapidfacts {
+  font-family: 'The Dawn Main';
+  color: rgba(50, 132, 233, 0.8);
 }
 
 /* the ending */
